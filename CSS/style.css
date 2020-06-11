@@ -1,0 +1,149 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+body {
+    background-color: black;
+}
+.gridOut {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 12em 30em;
+}
+section .gray {
+    background-color: rgb(29, 29, 29);
+    height: 100vh;
+}
+section .gridIn1 {
+    display: grid;
+    gap: 2em;
+    grid-template-columns: 10em;
+    grid-template-rows: 9em 16em 9em;
+    justify-content: center;
+    margin-top: 0.5em;
+}
+.img-about {
+    border-radius: 50%;
+    border: solid 0.2em red;
+    border-style: groove;
+    cursor: pointer;
+    display: block;
+    height: 10em;
+    margin-top: 1em;
+    object-fit: cover;
+    transition: all 1s;
+    width: 10em;
+}
+.img-about:hover {
+    transform: rotate(360deg);
+}
+.infoGrid {
+    display: grid;
+}
+.titleText, .langTitle, .title {
+    font-family: 'Roboto Mono', monospace;;
+}
+.infoGrid .icons {
+    display: grid;
+    grid-template-columns: 3.5em 6.5em;
+}
+.info a {
+    font-size: 2em;
+    text-align: center;
+    text-decoration: none;
+    transition: all 2s;
+    position: relative;
+}
+.info a:active,
+.info a:hover {
+    font-size: 3em;
+    text-decoration: none;
+    text-shadow: 0px 0px 20px red;
+    transition: background-color, color, 2s;
+}
+.info h1 {
+    color: whitesmoke;
+    font-family: 'Asar', serif;
+    font-size: 1em;
+    padding-top: 0.7em;
+}
+.info .title h1 {
+    font-size: 1.5em;
+    padding-left: 0.35em;
+    padding-top: 0.6em;
+}
+.langTitle {
+    color: whitesmoke;
+    font-size: 1.5em;
+    padding-bottom: 0.6em;
+    padding-left: 0.35em;
+}
+.lang {
+    display: grid;
+    gap: 0em;
+    grid-template-columns: 7em 3em;
+    grid-template-rows: 2em 2em;
+}
+.lang h1 {
+    color: whitesmoke;
+    font-family: 'Asar', serif;
+    font-size: 1em;
+}
+.lang .leftH1 {
+    padding-left: 0.5em;
+}
+.lang .rightH1 {
+    text-align: right;
+}
+section .gridIn2 {
+    display: grid;
+    gap: 1em;
+    grid-template-columns: 28em;
+    grid-template-rows: 7em 14em 14em;
+    justify-content: center;
+    margin-top: 1.5em;
+}
+section .white {
+    background-color: whitesmoke;
+    height: 100vh;
+}
+.gridOut .whiteTitle {
+    display: flex;
+}
+h1.name {
+    color: red;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 2.15em;
+    line-height: 2em;
+    padding-top: 0.5em;
+    text-align: center;
+    text-shadow: 3px 3px 5px rgb(134, 66, 26);
+}
+.work {
+    color: black;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1.6em;
+    margin-left: 1em;
+    text-align: center;
+    text-shadow: 0px 2px 10px black;
+}
+i {
+    color: red;
+    font-size: 1.5em;
+}
+.gridOut .titleText {
+    text-decoration: underline red;
+    width: 100vh;
+}
+.aboutMe p {
+    text-indent: 3em;
+}
+.education .eduCont {
+    margin-left: 2em;
+}
+.eduCont, .aboutCont {
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+    line-height: 1.4em;
+}
